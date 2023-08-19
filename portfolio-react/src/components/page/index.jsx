@@ -1,7 +1,7 @@
 import React from 'react';
 import PageContent from '../pageContent';
 import About from '../about';
-import Portfolio from '../Portfolio';
+import Portfolio from '../portfolio';
 import Contact from '../contact';
 import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';

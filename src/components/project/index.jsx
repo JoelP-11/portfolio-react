@@ -3,6 +3,8 @@ import { removeHyphensAndCapitalize } from '../../utils/helpers';
 import rhythmixConcertHubImage from '../../assets/projects/RhythmixConcertHub.jpg';
 import fineDineImage from '../../assets/projects/FineDine.jpg';
 import docTalkImage from '../../assets/projects/DocTalk.jpg';
+import WeatherAppImage from '../../assets/projects/WeatherApp.jpg';
+import WorkDayPlanner from '../../assets/projects/WorkDayPlanner.jpg';
 
 function Project({ project }) {
     const { name, repo, link, description } = project;
@@ -17,6 +19,12 @@ function Project({ project }) {
             break;
         case 'DocTalk':
             imageSource = docTalkImage;
+            break;
+        case 'WeatherApp':
+            imageSource = WeatherAppImage;
+            break;
+        case 'WorkDayPlanner':
+            imageSource = WorkDayPlanner;
             break;
         default:
             imageSource = rhythmixConcertHubImage;

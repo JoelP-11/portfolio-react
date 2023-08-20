@@ -12,14 +12,14 @@ function Portfolio() {
         {
             name: 'FineDine',
             description: 'handlebars',
-            link: "insert deployed app here",
-            repo: "insert repo link here"
+            link: "https://findine.herokuapp.com/",
+            repo: "https://github.com/cbae122/project2-reviewapp"
         },
         {
             name: 'DocTalk',
             description: 'MERN stack',
-            link: "insert deployed app here",
-            repo: "insert repo link here"
+            link: "https://doc-talk-1217027d6c32.herokuapp.com/",
+            repo: "https://github.com/Vlad1slav86/DocTalk"
         },
         {
             name: 'N/A',

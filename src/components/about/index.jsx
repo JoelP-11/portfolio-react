@@ -8,10 +8,10 @@ function About() {
                     <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
                 </div>
                 <p>
-                    Hi this is a test for the about me component
+                    Hi this is a test 
                 </p>
                 <p>
-                    second test for the about me component
+                    second test for the about me 
                 </p>
             </div>
         </section>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { valideEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
     const [formState, setFormState] = useState({
@@ -43,7 +43,7 @@ function Contact() {
         <section>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFOr="name">Name:</label>
+                    <label htmlFor="name">Name:</label>
                     <input
                     type="text"
                     name="name"
@@ -57,6 +57,15 @@ function Contact() {
                     type="email"
                     name="email"
                     defaultValue={email}
+                    onBlur={handleChange}
+                    />
+                </div>
+                <div>
+                    <label htmlFor="message">Message:</label>
+                    <textarea
+                    name="message"
+                    rows="5"
+                    defaultValue={message}
                     onBlur={handleChange}
                     />
                 </div>

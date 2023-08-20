@@ -4,10 +4,10 @@ import Project from "../project";
 function Portfolio() {
     const [projects] = useState([
         {
-            name: 'Music app',
+            name: 'Rhythmix Concert Hub',
             description: 'APIs',
-            link: "insert link here",
-            repo: "insert repo link here"
+            link: "https://joepinoch.github.io/project-1/",
+            repo: "https://github.com/joepinoch/project-1"
         },
         {
             name: 'FineDine',

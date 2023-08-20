@@ -3,11 +3,11 @@ import React from 'react';
 function Footer() {
     const icons = [
         {
-            name: "GitHub",
+            name: "fab fa-github",
             link: "https://github.com/JoelP-11"
         },
         {
-        name: "LinkedIn",
+        name: "fab fa-linkedin",
         link: "https://www.linkedin.com/in/joel-perez-9365a9277/"
         },
         {

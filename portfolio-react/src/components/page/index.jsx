@@ -3,7 +3,7 @@ import PageContent from '../pageContent';
 import About from '../about';
 import Portfolio from '../portfolio';
 import Contact from '../contact';
-import Resume from '../Resume';
+import Resume from '../resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page({ currentPage }) {

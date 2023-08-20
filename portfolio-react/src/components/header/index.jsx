@@ -1,11 +1,11 @@
 import React from 'react';
-// import coverImage from  finish this later
+import coverImage from '../../assets/cover/ilya-pavlov-OqtafYT5kTw-unsplash.jpg'
 
 function Header(props) {
     return (
-        <header classname="flex-row space-between px-1">
+        <header className="flex-row space-between px-1">
             <h1>Joel Perez</h1>
-            <img src alt="wooden background"></img>
+            <img src={coverImage} alt="wooden background"></img>
             {props.children}
         </header>
     );

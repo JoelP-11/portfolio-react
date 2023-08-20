@@ -2,11 +2,11 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section>
-            <div className="flex-row">
+        <section className="my-5">
+            <div className="my-2">
                 <p>Download my <a href="https://www.linkedIn/">Resume</a></p>
-                <h2>Front-end Proficiencies</h2>
-                <ul>
+                <h3>Front-end Proficiencies</h3>
+                <ul className="skills">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -15,10 +15,8 @@ function Resume() {
                     <li>React</li>
                     <li>Bootstrap</li>
                 </ul>
-            </div>
-            <div className="flex-row">
-                <h2>Back-end Proficiencies</h2>
-                <ul>
+                <h3>Back-end Proficiencies</h3>
+                <ul className="skills">
                     <li>APIs</li>
                     <li>Node</li>
                     <li>Express</li>

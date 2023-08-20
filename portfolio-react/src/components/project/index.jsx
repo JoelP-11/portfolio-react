@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
 function Project({ project }) {
@@ -7,7 +7,7 @@ function Project({ project }) {
     return (
         <div className="project" key={name}>
             <img
-            src// ={require(`../../assets/projects/${name}.jpg`).default}
+            src={require(`../../assets/projects/${name}.jpg`).default}
             alt={removeHyphensAndCapitalize(name)}
             className="project-bg"
             />

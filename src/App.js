@@ -9,12 +9,12 @@ import './App.css';
 function App() {
   const [pages] = useState([
     {
-      name: "about me"
+      name: "About me"
     },
-    { name: "portfolio" },
+    { name: "Portfolio" },
     { name: "contact" },
     {
-      name: "resume"
+      name: "Resume"
     }
   ]);
 

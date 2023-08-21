@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fb6c935.css",
+    "main.js": "/static/js/main.97c4bb6a.js",
+    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
+    "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.7d535815e88e29dd7060.jpg",
+    "static/media/FineDine.jpg": "/static/media/FineDine.d9c5b3ad64d46f87201d.jpg",
+    "static/media/DocTalk.jpg": "/static/media/DocTalk.10243a1f55c70d8c5ecb.jpg",
+    "static/media/WeatherApp.jpg": "/static/media/WeatherApp.db3efd3c988b0967dd7b.jpg",
+    "static/media/RhythmixConcertHub.jpg": "/static/media/RhythmixConcertHub.b9e265433d4884dd4e68.jpg",
+    "static/media/WorkDayPlanner.jpg": "/static/media/WorkDayPlanner.bfa3c983faac42fc0423.jpg",
+    "index.html": "/index.html",
+    "main.3fb6c935.css.map": "/static/css/main.3fb6c935.css.map",
+    "main.97c4bb6a.js.map": "/static/js/main.97c4bb6a.js.map",
+    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fb6c935.css",
+    "static/js/main.97c4bb6a.js"
+  ]
+}
